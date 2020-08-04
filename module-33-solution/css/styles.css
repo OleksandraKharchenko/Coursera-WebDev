@@ -1,0 +1,320 @@
+@import "menuCategories.css";
+@import "SingleCategory.css";
+
+h2 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#photo {
+    margin-top: -20px;
+    width: auto;
+}
+
+body {
+    background-color: sandybrown;
+    font-family: 'Libre Baskerville', serif;
+
+    width:100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .jumbotron {
+        background: url('../images/main.png') no-repeat;
+        height: 700px;
+        box-shadow: 0 0 50px;
+        border: solid 1px lightgoldenrodyellow;
+
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .jumbotron {
+        background: url('../images/main.png') no-repeat;
+        height: 600px;
+        box-shadow: 0 0 40px;
+        border: solid 1px lightgoldenrodyellow;
+
+    }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        background: url('../images/main.png') no-repeat;
+        height: 600px;
+        box-shadow: 0 0 30px;
+        padding-top: unset;
+        padding-bottom: unset;
+    }
+
+    .menuPhoto {
+        width: 250px;
+    }
+
+
+    .itemPrice {
+        margin-right: 50px;
+    }
+}
+
+.than {
+    visibility: hidden;
+}
+
+@media (max-width: 767px) {
+
+    .row {
+        width: 350px;
+        margin:0 auto;
+    }
+
+    .jumbotron {
+        background: url('../images/main.png') no-repeat;
+        height: 480px;
+        margin-bottom: 30px;
+        padding-top: unset;
+        box-shadow: 0 0 30px;
+    }
+
+    .myClass {
+        visibility: unset;
+    }
+
+
+    .than {
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        bottom:5%;
+        background-color: #ffeeba;
+        border-radius: 30px;
+        font-size: 18px;
+        color:black;
+        height:50px;
+        text-align: center;
+    }
+
+
+    .dropdown-toggle{
+        margin-top:-7px;
+
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+        background-color:#ffeeba;
+        border-radius: unset;
+    }
+
+
+    #drop12{
+
+        background-color: #ffeeba;
+    }
+
+    .itemPrice {
+        position: absolute;
+        right: unset;
+        left: 150px;
+    }
+
+    .myClass {
+        visibility: hidden;
+    }
+
+    .navbar-nav .open .dropdown-menu{
+        background-color: #ffeeba;
+    }
+
+    #words {
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    #collapsable-nav {
+        margin-left: 50%;
+    }
+
+    .specials{
+        width:200px;
+        height:200px
+    }
+
+    #tiles{
+        margin-top: 40px;
+    }
+
+}
+
+
+.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+}
+
+
+#header-nav {
+    background-color: #ffeeba;
+    border: 0;
+    border-radius: 0;
+    height: 140px;
+
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-brand h3 {
+    color: #303030;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #b9bbbe;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand .welcome {
+    color: #303030;
+    font-size: 1em;
+    margin-top: 15px;
+    text-shadow: 0.5px 0.5px 0.5px #b9bbbe;
+
+}
+
+
+@media (min-width: 768px) {
+    .myClass {
+        display: inline-block;
+        /* float: left; */
+        position: absolute;
+        margin-top: 30px;
+        right: 130px;
+    }
+}
+
+
+.navbar-collapse.collapse {
+    display: inline-block;
+
+}
+
+#nav-list a {
+    color: #733102;
+    text-align: center;
+
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+    margin-right: 5px;
+}
+
+
+#logo {
+    background: url('../images/logotype.png') no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: 10px 25px 10px 0;
+
+}
+
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div { /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+p {
+    padding: 10px;
+}
+
+section {
+    border: 1px black solid;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.menu, .map, .specials {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #757474;
+    border-radius: 30px
+}
+
+.specials {
+    background: url('../images/sp.png') no-repeat;
+    background-position: center;
+
+}
+
+.menu {
+    background: url('../images/re.png') no-repeat;
+    background-position: center;
+}
+
+.menu span, .map span, .specials span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #0b2e13;
+    opacity: 0.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*Footer*/
+.panel {
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: #d17330;
+    margin-top: 20px;
+    margin-bottom:0;
+
+}
+
+#hours, #reviews, #address {
+    text-align: center;
+}
+
+#reviews {
+    padding: 0;
+
+}

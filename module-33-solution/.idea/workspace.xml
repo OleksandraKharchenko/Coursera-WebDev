@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module-3-solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -45,6 +45,17 @@
       <workItem from="1596014148174" duration="3861000" />
       <workItem from="1596022088023" duration="1422000" />
       <workItem from="1596030334423" duration="18000" />
+      <workItem from="1596099777448" duration="107000" />
+      <workItem from="1596099912029" duration="5926000" />
+      <workItem from="1596108081089" duration="4470000" />
+      <workItem from="1596119152102" duration="656000" />
+      <workItem from="1596176624209" duration="2153000" />
+      <workItem from="1596187612623" duration="6511000" />
+      <workItem from="1596201623563" duration="2658000" />
+      <workItem from="1596282561098" duration="4198000" />
+      <workItem from="1596376810955" duration="2171000" />
+      <workItem from="1596449510416" duration="4748000" />
+      <workItem from="1596531554545" duration="3595000" />
     </task>
     <servers />
   </component>
@@ -56,9 +67,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1596030350512" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1596022253573">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1596203642787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/1920.0.1280.689@0.0.1280.689" timestamp="1596203642787" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1596022253573" />
   </component>
 </project>
