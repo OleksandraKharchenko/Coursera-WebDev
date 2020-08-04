@@ -18,7 +18,7 @@ body {
     background-color: sandybrown;
     font-family: 'Libre Baskerville', serif;
 
-    width:100%;
+    width: 100%;
 }
 
 /********** Large devices only **********/
@@ -72,13 +72,13 @@ body {
 
     .row {
         width: 350px;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     .jumbotron {
         background: url('../images/main.png') no-repeat;
-        height: 480px;
-        margin-bottom: 30px;
+        height: 400px;
+        margin-bottom: 40px;
         padding-top: unset;
         box-shadow: 0 0 30px;
     }
@@ -92,29 +92,29 @@ body {
         visibility: visible;
         position: absolute;
         right: 0;
-        bottom:5%;
+        bottom: 5%;
         background-color: #ffeeba;
         border-radius: 30px;
         font-size: 18px;
-        color:black;
-        height:50px;
+        color: black;
+        height: 50px;
         text-align: center;
     }
 
 
-    .dropdown-toggle{
-        margin-top:-7px;
+    .dropdown-toggle {
+        margin-top: -7px;
 
     }
 
-    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-        background-color:#ffeeba;
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+        background-color: #ffeeba;
         border-radius: unset;
     }
 
 
-    #drop12{
-
+    #drop12 {
+        padding-top: 20px;
         background-color: #ffeeba;
     }
 
@@ -128,7 +128,7 @@ body {
         visibility: hidden;
     }
 
-    .navbar-nav .open .dropdown-menu{
+    .navbar-nav .open .dropdown-menu {
         background-color: #ffeeba;
     }
 
@@ -141,12 +141,12 @@ body {
         margin-left: 50%;
     }
 
-    .specials{
-        width:200px;
-        height:200px
+    .specials {
+        width: 200px;
+        height: 200px
     }
 
-    #tiles{
+    #tiles {
         margin-top: 40px;
     }
 
@@ -306,7 +306,7 @@ section {
     padding-left: 40px;
     background-color: #d17330;
     margin-top: 20px;
-    margin-bottom:0;
+    margin-bottom: 0;
 
 }
 

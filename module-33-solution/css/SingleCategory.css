@@ -1,32 +1,34 @@
-#dishPhoto,.img-responsive{
+#dishPhoto, .img-responsive {
     border-radius: 15px;
-    width:auto;
+    width: auto;
 }
 
-.menuPhoto{
+.menuPhoto {
     border-radius: 15px;
     box-shadow: 0 1px 5px 1px #0b2e13;
 }
 
 
-h3.item-title{
+h3.item-title {
     margin-left: 8px;
 }
-.itemPrice{
-    position:absolute;
+
+.itemPrice {
+    position: absolute;
     right: 0;
-    bottom:0;
+    bottom: 0;
     margin-right: 16px;
     background: #ffeeba;
     font-size: 1.2em;
-    opacity:0.8;
-    padding:5px ;
+    opacity: 0.8;
+    padding: 5px;
     border-radius: 10px/20px;
 }
 
-.row{
+.row {
     margin-bottom: 20px;
 }
-#allInfo{
-    margin-top:25px;
+
+#allInfo {
+    margin-top: 25px;
 }
