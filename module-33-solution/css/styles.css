@@ -71,7 +71,7 @@ body {
 @media (max-width: 767px) {
 
     #center{
-        padding-top:50px;
+        padding-top:30px;
     }
 
 
@@ -82,7 +82,7 @@ body {
 
     .jumbotron {
         background: url('../images/main.png') no-repeat;
-        height: 400px;
+
         padding-bottom: unset;
         padding-top: unset;
         box-shadow: 0 0 30px;
